@@ -1,0 +1,52 @@
+	<html>
+	<head>
+		<title> CURSO HTML 2020 </title>
+		
+		<link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+		<link rel=StyleSheet href="css/estilos.css" type="text/css" media=screen>
+		
+	</head>
+
+<body>
+
+<div align="middle">
+<img src="img/logo_html5.png">
+</div>
+<hr>
+<h1 align="middle">MI CURSO DE HTML 2020</h1>
+<p> en este curso vamos a tratar todo la basico del lenguaje HTML5 materia perteneciente a modalidad de tecnologia de la informacion  y las comunicaciones
+
+<hr>
+				<ol>
+					<li><a href="queesH.T.M.L.html">Que es H.T.M.L</a></li>
+					<li>Historia de H.T.M.L</li>
+					<li>Donde ver H.T.M.L</li>
+					<li>Estructura básica de una web</li>
+					<li>Fondos de una web</li>
+					<li>Color en web</li>
+					<li>Encabezados</li>	
+					<li>Parrafos</li>
+					<li>Imágenes para web</li>
+					<li>Tablas</li>
+					<li>Listas ordenadas y desordenadas</li>
+					<li>Hipervinculo</li>
+					<li>Rollover</li>
+					<li>Mapas sensibles</li>
+					<li>Pop UPS o ventanas emergentes</li>
+					<li>Estilos</li>
+					<li>Audio y video</li>
+				</ol>
+<hr>
+<table border=1 align="center">
+	<tr>
+		<td><img src="img/2.png" onmouseover="this.src='img/7.png'" onmouseout="this.src='img/2.png'"</td>
+		<td><img src="img/3.png" onmouseover="this.src='img/8.png'" onmouseout="this.src='img/3.png'"</td>
+		<td><img src="img/1.png" onmouseover="this.src='img/6.png'" onmouseout="this.src='img/1.png'"</td>
+		<td><img src="img/4.png" onmouseover="this.src='img/9.png'" onmouseout="this.src='img/4.png'"</td>
+		<td><img src="img/5.png" onmouseover="this.src='img/10.png'" onmouseout="this.src='img/5.png'"</td>
+	</tr>
+</table>
+
+</body>
+</html>	

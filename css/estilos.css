@@ -1,0 +1,20 @@
+h1{
+	font-family: 'Galada', cursive;
+	color:FF0000;
+	}
+	
+h2{
+	font-family: 'Lobster', cursive;
+	color:FFFFFF;
+	}
+
+p{
+	font-family: 'Lobster', cursive;
+	color:000000;
+	}
+
+
+body{
+	background-image: url("../img/Fondo.png");
+	
+	}
