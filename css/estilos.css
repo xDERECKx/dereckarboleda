@@ -18,3 +18,9 @@ body{
 	background-image: url("../img/Fondo.png");
 	
 	}
+
+table, td {
+	border: 1px solid green;
+	
+	
+	}
