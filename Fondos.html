@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title>Fondos en web</title>
+		<meta charset="UTF-8">
+		<link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+		<link rel=StyleSheet href="css/estilos.css" type="text/css" media=screen>
+	</head>
+	
+<body>
+<h1 align="middle">Fondos en WEB</h1>
+<div align="middle">
+
+<table border=1>
+	<tr>
+		<th>Fondos de color</th>
+		<th>Fondos de imágen</th>
+	</tr>
+	<tr>
+		<td><img src="img/a.jpeg" width=200 height=150></td>
+		<td><img src="img/e.jpg" width=200 height=150></td>
+	</tr>
+</table>
+
+</div>
+<hr width=50% align="center">
+
+<p>Para incluir un fondo en una página web necesitamos utilizar el atributo background en la etiqueta "BODY", al que le asignamos el nombre del archivo que deseamos utilizar como fondo. Si el archivo se encuentra en un directorio distinto que la página web, necesitaremos incluir la ruta al archivo, teniendo en cuenta siempre de utilizar una ruta relativa al archivo .html para que se conserve la ruta en caso de que cambiemos el sitio web de localización.
+
+<p>body background="fondo.gif"</p>
+<p>Lo que conseguimos con esto es que el archivo fondo.gif se muestre en la página como fondo. Por defecto, la imagen de fondo aparece como un mosaico, repitiéndose a lo largo de todo el espacio de la página.</p>
+<hr>
+<p>No solo la página puede tener un fondo, también lo podemos colocar a las tablas o las celdas, por ejemplo. Se utiliza el mismo atributo background, aunque aplicado a otras etiquetas.</p>
+
+<p>table background="fondo.gif"</p>
+
+<p>td background="fondo.gif"</p>
+<p>Estos dos elementos (tablas y celdas), junto con el propio cuerpo de la página, eran los que permitían fondos en la web antes de existir el lenguaje CSS. Pero hoy, como veremos enseguida, con CSS podemos colocar fondos en casi cualquier elemento que tengas en tu página.</p>
+
+<table align="center">
+	<tr>
+		<td><img src="img/2.png" onmouseover="this.src='img/7.png'" onmouseout="this.src='img/2.png'"</td>
+		<td><img src="img/3.png" onmouseover="this.src='img/8.png'" onmouseout="this.src='img/3.png'"</td>
+		<td><a href="index.html"><img src="img/1.png" onmouseover="this.src='img/6.png'" onmouseout="this.src='img/1.png'"></a></td>
+		<td><img src="img/4.png" onmouseover="this.src='img/9.png'" onmouseout="this.src='img/4.png'"</td>
+		<td><img src="img/5.png" onmouseover="this.src='img/10.png'" onmouseout="this.src='img/5.png'"</td>
+	</tr>
+</table>
+		
+		
+		
+
+
+
+
+	
+</body>
+</html>
